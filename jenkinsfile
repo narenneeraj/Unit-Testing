@@ -31,7 +31,7 @@ agent any
     -Dsonar.sources=. \
     -Dsonar.host.url=http://3.106.127.237:9000 \
     -Dsonar.login=sqp_7b7f3a970ea6ef64b3eb47612028e2b9c7c6b961
-    '''
+      '''
     }
     }
     
