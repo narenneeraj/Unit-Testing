@@ -26,17 +26,12 @@ agent any
   stage('Sonar'){
     steps {
     sh '''
-
+    
       '''
     }
     }
     
-    }
-       
-      }  
-  
-
-        stage('Deploy Container'){
+            stage('Deploy Container'){
       steps {
       sh '''
          sudo docker stop node-hello
@@ -45,3 +40,10 @@ agent any
          '''
       }
     }
+    
+    }
+       
+      }  
+  
+
+
